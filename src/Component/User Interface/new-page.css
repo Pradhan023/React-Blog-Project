@@ -1,0 +1,566 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.newpage-navbar{
+    display: flex;
+    border-bottom: 7px solid rgb(222, 222, 222);
+    padding: 30px 60px 30px 110px;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    text-align: center;
+}
+.logo p
+{
+    transform: rotate(270deg);
+    font-size: x-large;
+    position: absolute;
+    top: 35px;
+}
+.logo h1
+{
+    position: relative;
+    left: 20px;
+    font-size: 35px;
+}
+.btn{
+    border: 3px solid #03A87C;
+    padding: 10px;
+}
+.btn p
+{
+    font-size: large;
+    font-weight: bold;
+    color: #03A87C;
+}
+
+/* page content */
+
+.newpage-parent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.newpage-child{
+    width: 677px;
+    padding: 30px;
+}
+.newpage-header
+{
+    font-size: 15px;
+    padding-bottom: 28px;
+}
+.userinfo
+{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 22px;
+}
+.user-logo
+{
+    height: 103px;
+    width: 103px;
+}
+.user-name
+{
+    position: relative;
+    top: 38px;
+    line-height: 30px;
+}
+.user-name small
+{
+    color: rgb(168, 168, 168);
+}
+.page-img
+{
+    width:100%;
+    padding-bottom: 28px;
+}
+.page-desc
+{
+    line-height: 35px;
+    font-size: 23px;
+}
+.page-sl
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+.page-sl img
+{
+    height: 40px;
+}
+
+.more-cont
+{
+    background-color: rgb(244, 243, 243);
+    width: 100%;
+    padding: 50px 160px 30px 160px;
+}
+.more-cont h2
+{
+    border-bottom: 3px solid rgb(230, 230, 230);
+    padding-bottom: 30px;
+}
+.high
+{
+    padding-top: 30px;
+    color: rgb(177, 177, 177);
+}
+.more-parnet
+{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px 0 0 0;
+}
+
+.more-img{
+    height: 200px;
+}
+.more-child{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 8px 8px 0 8px;
+}
+.more-child:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.more-child h1
+{
+    font-size: large;
+    padding: 10px 0 15px 0;
+    width: 356px;
+    line-height: 25px;
+}
+.Moreuser-logo
+{
+    height: 70px;
+}
+.Moreuser-name
+{
+    position: relative;
+    top: 15px;
+    line-height: 30px;
+}
+.Moreuser-name small
+{
+    color: rgb(168, 168, 168);
+}
+
+/* responsive */
+
+@media screen and (width <= 600px )
+{
+    .newpage-navbar{
+        width: 100%;
+        border-bottom: 5px solid rgb(222, 222, 222);
+        padding: 20px 12px 20px 20px;
+    }
+    .logo p
+    {
+        font-size: 18px;
+        top: 29px;
+    }
+    .logo h1
+    {
+        left: 6px;
+        font-size: 32px;
+    } 
+    .btn{
+        border: 2px solid #03A87C;
+    }
+    .btn p
+    {
+        font-size: 13px;
+        font-weight: bold;
+        color: #03A87C;
+    }
+    .newpage-child{
+        width: 100%;
+        padding: 20px;
+    }
+    .newpage-header
+{
+    font-size: 11px;
+    padding-bottom: 24px;
+}
+.userinfo
+{
+    gap: 12px;
+    padding-bottom: 20px;
+}
+.user-logo
+{
+    height: 70px;
+    width: 70px;
+}
+.user-name
+{
+    top: 15px;
+    line-height: 30px;
+}
+.page-img
+{
+    width:100%;
+    padding-bottom: 28px;
+}
+.page-desc
+{
+    line-height: 35px;
+    font-size: 18px;
+}
+.page-sl
+{
+    gap: 12px;
+    top: 210px;
+    left: 320px;
+}
+.page-sl img
+{
+    height: 22px;
+}
+
+.more-cont
+{
+    padding: 30px 20px 0 20px;
+}
+.more-cont h2
+{
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+.high
+{
+    padding-top: 20px;
+}
+.more-parnet
+{
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 25px;
+}
+.more-img{
+    height: 130px;
+    width: 220px;
+}
+.more-child
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(222, 222, 222);
+}
+.more-child h1
+{
+    font-size: 15px;
+    width: 100vw;
+    text-align: center;
+    line-height: 22px;
+}
+.Moreuser-logo
+{
+    height: 50px;
+}
+.Moreuser-name
+{
+    top: 8px;
+    line-height: 20px;
+}
+}
+
+/* ipad */
+
+@media screen and (orientation:portrait) and ( width >= 768px){
+    .newpage-navbar{
+        width: 100vw;
+        border-bottom: 5px solid rgb(222, 222, 222);
+        padding: 20px 12px 20px 20px;
+    }
+    .logo p
+    {
+        font-size: 18px;
+        top: 29px;
+    }
+    .logo h1
+    {
+        left: 6px;
+        font-size: 32px;
+    } 
+    .btn{
+        border: 2px solid #03A87C;
+    }
+    .btn p
+    {
+        font-size: 20px;
+        font-weight: bold;
+        color: #03A87C;
+    }
+    .newpage-child{
+        width: 100%;
+        padding: 20px;
+    }
+    .newpage-header
+    {
+        font-size: 15px;
+        padding-bottom: 28px;
+    }
+    .userinfo
+    {
+        gap: 12px;
+        padding-bottom: 28px;
+    }
+    .user-logo
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .user-name
+    {
+        top: 15px;
+        line-height: 40px;
+    }
+    .user-name h3{
+        font-size: x-large;
+    }
+    .user-name small {
+        font-size: large;
+    } 
+    .page-img
+    {
+        width:100%;
+        padding-bottom: 28px;
+    }
+    .page-desc
+    {
+        line-height: 35px;
+        font-size: 20px;
+        height: auto;
+    }
+    .page-sl
+    {
+        gap: 12px;
+        top: 210px;
+        right: 0;
+    }
+    .page-sl img
+    {
+        height: 39px;
+    }
+
+    .more-cont
+    {
+        padding: 30px 20px 0 20px;
+        width: 100vw;
+    }
+    .more-cont h2
+    {
+        padding-bottom: 20px;
+        font-size: 22px;
+    }
+    .high
+    {
+        padding-top: 20px;
+    }
+    .more-parnet
+    {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-top: 25px;
+    }
+    .more-img{
+        height: 10rem;
+        width: 15rem;
+    }
+    .more-child
+    {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+        padding: 18px 0 0 0;
+    }
+    .more-child h1
+    {
+        font-size: 16px;
+        width: 100vw;
+        text-align: center;
+        line-height: 22px;
+    }
+    .Moreuser-logo
+    {
+        height: 60px;
+        width: 60px;
+    }
+    .Moreuser-name
+    {
+        top: 8px;
+        line-height: 25px;
+    }
+}
+
+/*  */
+
+@media screen and (orientation:landscape) and ( width = 1024px){
+    .newpage-navbar{
+        display: flex;
+        border-bottom: 7px solid rgb(222, 222, 222);
+        padding: 30px 60px 30px 110px;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 120px;
+        text-align: center;
+    }
+    .logo p
+    {
+        transform: rotate(270deg);
+        font-size: x-large;
+        position: absolute;
+        top: 35px;
+    }
+    .logo h1
+    {
+        position: relative;
+        left: 20px;
+        font-size: 35px;
+    }
+    .btn{
+        border: 3px solid #03A87C;
+        padding: 10px;
+    }
+    .btn p
+    {
+        font-size: large;
+        font-weight: bold;
+        color: #03A87C;
+    }
+    
+    /* page content */
+    
+    .newpage-parent
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .newpage-child{
+        width: 677px;
+        padding: 30px;
+    }
+    .newpage-header
+    {
+        font-size: 15px;
+        padding-bottom: 28px;
+    }
+    .userinfo
+    {
+        display: flex;
+        gap: 15px;
+        padding-bottom: 22px;
+    }
+    .user-logo
+    {
+        height: 103px;
+        width: 103px;
+    }
+    .user-name
+    {
+        position: relative;
+        top: 38px;
+        line-height: 30px;
+    }
+    .user-name small
+    {
+        color: rgb(168, 168, 168);
+    }
+    .page-img
+    {
+        width:100%;
+        padding-bottom: 28px;
+    }
+    .page-desc
+    {
+        line-height: 35px;
+        font-size: 23px;
+    }
+    .page-sl
+    {
+        left: 100px;
+    }
+    
+    .more-cont
+    {
+        width: 100vw;
+        padding: 50px 0px 30px 20px;
+    }
+    .more-cont h2
+    {
+        border-bottom: 3px solid rgb(230, 230, 230);
+        padding-bottom: 30px;
+    }
+    .high
+    {
+        padding-top: 30px;
+        color: rgb(177, 177, 177);
+    }
+    .more-parnet
+    {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px 0 0 0;
+    }
+    
+    .more-img{
+        height: 180px;
+        width: 18rem;
+    }
+    .more-child{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 8px 8px 0 8px;
+        width: 19rem;
+        height: 25rem;
+    }
+    .more-child:hover{
+        box-shadow: none;
+    }
+    .more-child h1
+    {
+        font-size: large;
+        padding: 10px 0 15px 0;
+        width: 100%;
+        height: 7rem;
+        line-height: 22px;
+    }
+    .Moreuser-logo
+    {
+        height: 70px;
+    }
+    .Moreuser-name
+    {
+        position: relative;
+        top: 15px;
+        line-height: 30px;
+    }
+    .Moreuser-name small
+    {
+        color: rgb(168, 168, 168);
+    }
+}

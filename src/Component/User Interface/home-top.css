@@ -1,0 +1,30 @@
+.Home-head
+{
+    width: 11rem;
+    height: 49px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    border-bottom: 4px solid rgba(255, 166, 0, 0.708) ;
+}
+.Home-toppost{
+    display: flex;
+    width: 27rem;
+    margin-bottom: 12px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left top, #7587a2, #8d96ab, #a3a6b5, #b6b6be, #c8c8c8);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Home-topimg{
+    width: 7rem;
+    height: 6rem;
+}
+.Home-top-text{
+    margin-left: 10px;
+}
+.Home-tophead{
+    height: 70px;
+    padding-top: 0.5rem;
+    font-weight: bold;
+}
+
