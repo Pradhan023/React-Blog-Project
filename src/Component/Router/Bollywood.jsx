@@ -4,7 +4,6 @@ import UI from '../User Interface/UI'
 import Navbar from './Navbar'
 import { Link } from 'react-router-dom'
 import '../User Interface/UI.css'
-import Footer from '../Footer/Footer'
 
 const Bollywood = () => {
     const Data = useContext(Store)
@@ -54,7 +53,7 @@ const Bollywood = () => {
         </div>
 
         
-          <img src='https://i.pinimg.com/originals/d7/99/ca/d799ca5c7f0985266103e1e0c255485a.gif' className="child3" />
+          <img src='https://images.ctfassets.net/inb32lme5009/b80AUihxQ3RglfpEHApvy/6095d4e28b52a3bc6d979a3f0c4851ba/Doc_Martin.gif?q=40&h=600' className="child3" />
         
 
     </div>

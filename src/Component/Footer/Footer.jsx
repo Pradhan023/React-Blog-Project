@@ -32,9 +32,11 @@ const Footer = () => {
         </div>
         <div className="foot-3">
             <div className="foot-flex2">
-                <h1>Help</h1>
+                <h1>Contact Us</h1>
                 <p className='foot-text'><img src={Tele} /><span>+91 6005043329</span></p>
                 <p className='foot-mail'><img src={Mail}/><span>anishpradha5523@gmail.com</span></p>
+                
+                <h2>Follow Us</h2>
                 <div className='foot-logo'>
                     <img src={Insta} />
                     <img src={Fb} />

@@ -52,7 +52,7 @@ const Fitness = () => {
         })}
         </div>
         
-        <img src='https://i.pinimg.com/originals/d7/99/ca/d799ca5c7f0985266103e1e0c255485a.gif' className="child3" />
+        <img src='https://storage.googleapis.com/website-production/uploads/2019/01/snapchat-promotions-collections.gif' className="child3" />
       
       </div>
 

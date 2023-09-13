@@ -52,7 +52,7 @@ const Technology = () => {
         })}
         </div>
 
-        <img src='https://i.pinimg.com/originals/d7/99/ca/d799ca5c7f0985266103e1e0c255485a.gif' className="child3" />
+        <img src='https://static1.squarespace.com/static/600dbd4a387b98582a60c7fa/61cbb676425b9f00e13d8360/62b7ddc03495104834b872bd/1656385605829/Soda+Can+Commercial+GIF.gif?format=1500w' className="child3" />
 
         </div>
       </>

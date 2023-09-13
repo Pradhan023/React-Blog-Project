@@ -7,7 +7,6 @@
     display: grid;
     grid-template-rows: 20rem;
     grid-template-columns: 0.6fr 2fr 3fr 2fr 0.1fr;
-    /* padding: 30px 0 0 0; */
 }
 
 /* foot 1 */
@@ -96,4 +95,85 @@
 .foot-logo img
 {
     height: 2rem;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 480px)
+{
+    .Footer-Grid-Parent{
+        display: grid;
+        grid-template-rows: repeat(3,auto);
+        grid-template-columns: 0.1fr auto 0.1fr;
+    }
+    /* foot 1 */
+
+    .foot-1{
+        grid-area: 1/2/2/3;
+        margin: 8px auto;
+    }
+    .foot-siren
+    {
+        height: 5rem;
+        width: fit-content;
+        margin: 0 0 0 30px;
+    }
+    .foot-siren h2
+    {
+        font-size: 4.4rem;
+    }
+    .foot-siren p
+    {
+        font-size: 2.1rem;
+        padding-top: 2rem;
+        transform: rotate(271deg);
+    }
+    .foot-summary
+    {
+        line-height: 25px;
+        width: 20rem;
+        margin: 0;
+    }
+
+    /* foot 2 */
+
+    .foot-2{
+        grid-area: 2/2/3/3;
+        margin-top: 20px;
+    }
+
+    /* foot 3 */
+
+    .foot-3{
+        grid-area: 3/2/4/3;
+        margin: 20px auto;
+    }
+    .foot-flex2{
+        line-height: 3.2rem;
+    }
+    .foot-flex2 h1{
+        text-align: center;
+    }
+    .foot-text img{
+        height: 1.8rem;
+    }
+    .foot-mail img
+    {
+        height: 1.8rem;
+    }
+
+    /* logo */
+
+    .foot-flex2 h2{
+        text-align: center;
+        margin: 5px auto ;
+    }
+    .foot-logo{
+        width: 8rem;
+        margin: 8px auto;
+    }
+    .foot-logo img
+    {
+        height: 1.8rem;
+    }
 }

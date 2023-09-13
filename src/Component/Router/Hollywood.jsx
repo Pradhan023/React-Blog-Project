@@ -53,7 +53,7 @@ const Hollywood = () => {
         })}
         </div>
 
-        <img src='https://i.pinimg.com/originals/d7/99/ca/d799ca5c7f0985266103e1e0c255485a.gif' className="child3" />
+        <img src='https://www.campaignmonitor.com/wp-content/uploads/2019/04/uniqlo-email-gif-example.gif' className="child3" />
       
       </div>
     </>
