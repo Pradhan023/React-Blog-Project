@@ -92,6 +92,8 @@
         background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
         height: 12rem;
         line-height: 1rem;
+        width: 100%;
+        position: absolute;
     }
     .textlink{
         width: 15rem;
@@ -106,18 +108,18 @@
 @media only screen and (orientation:portrait) and (min-width: 768px) and (max-width: 1024px)
 {
     .siren{
-        background-color: white;
+        background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
         justify-content: start;
-        height: 4rem;
+        height: 5rem;
         padding: 0;
     }
     .siren h2
     {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .siren p
     {
-        font-size: 1rem;
+        font-size: 1.5rem;
         transform: rotate(271deg);
         padding-top: 10px;
     }
@@ -128,18 +130,22 @@
         top: 10px;
         display: block;
     }
+    .menu{
+        height: 3.5rem;
+    }
     .Navbar{
         flex-direction: column;
-        align-items: center;
         text-align: center;
-        background-color: white;
-        height: 12rem;
+        background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
+        height: 25rem;
         line-height: 1rem;
+        position: absolute;
+        right: 10px;
     }
     .textlink{
         border-bottom: 2px solid rgb(219, 219, 219);
-        width: 40rem;
-        padding-bottom: 1.5rem;
+        width: 35rem;
+        padding-bottom: 3rem;
     }
     .stayopen{
         display: none;
