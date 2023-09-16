@@ -9,7 +9,7 @@ const UI = ({imgurl,heading,desc}) => {
             <div className="text">
               <h2 className='heading' >{`${heading.slice(0,95)} ....`}</h2>
               <p className='desc' >{`${desc.slice(0,120)} ....`}</p>
-              <span><p><b>Travel</b> / August 21 2023</p></span>
+              <p><span><b>Travel</b> / Sept 21 2023</span></p>
             </div>
         </div>
     </>

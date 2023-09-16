@@ -86,7 +86,7 @@
 .child2
 {
     grid-area: 1/2/2/3;
-    height: 45rem;
+    height: 53rem;
 }
 
 .headtop-post
@@ -125,6 +125,40 @@
     padding-top: 0.5rem;
     height: 5rem;
 }
+/* top post 1 */
+
+.toppost-1{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 25rem;
+    margin-bottom: 12px;
+    background-image: linear-gradient(to left top, #7587a2, #8d96ab, #a3a6b5, #b6b6be, #c8c8c8);
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+}
+.topimg-1
+{
+    height: 13rem;
+    width: 22rem;
+    margin-left: 14px;
+}
+.top-text-1
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+}
+.top-head-1{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 0.8rem;
+    height: 4.5rem;
+}
+.top-text-1 span{
+    font-size: 1rem;
+}
 
 /* advertisement */
 .child3
@@ -137,31 +171,32 @@
 
 /* responsive mobile */
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 768px)
 {
     .Parent-container-comp{
         grid-template-columns: auto;
-        grid-template-rows: auto auto 36rem;
+        grid-template-rows: auto auto 34%;
     }
     .child1
     {
         grid-area: 1/1/2/2;
-        
+        margin-bottom: 5%;
     }
     .child2
     {
         grid-area: 3/1/4/2;
-        height: 45rem;
+        width: 100%;
+        height: 100%;
     }
     .child3
     {
         grid-area: 2/1/3/2;
-        width: 22rem;
-        height: 80vh;
+        width: 97%;
+        height: 100%;
         padding-left: 0px;
-        margin:auto;
+        margin: 0 auto;
     }
-
+    
     /* page content */
     
     .headcategory
@@ -175,17 +210,17 @@
     }
     .Page-content
     {
-        height: 9rem;
-        width: 95vw;
-        padding: 12px 6px;
+        height: 12.2%;
+        width: 97%;
+        padding: 2% 2%;
         border-radius: 10px;
-        margin: 0 auto 10px auto;
+        margin: 0 auto 9px auto;
     }
 
     .img
     {
-        width: 8rem;
-        height: 7.5rem;  
+        width: 36%;
+        height: 100%;  
     }
     .text
     {
@@ -193,24 +228,26 @@
     }
     .heading
     {
-        font-size: 11px;
-        height: 50px;
-        padding-top: 7px;
+        font-size: 67%;
+        height: 48%;
+        padding-top: 1%;
     }
     .desc
     {
-        height: 55px;
-        padding-top: 5px;
-        font-size: 10px;
+        height: 34%;
+        width: 100%;
+        padding-top: 0;
+        font-size:58%;
     }
-    .text p{
-        font-size: 10px;
+    .text span
+    {
+        font-size: 50%;
     }
     .load
     {
-        font-size: large;
-        width: 11rem;
-        height: 2rem;
+        font-size: 95%;
+        width: 40%;
+        height: 0;
     }
 
     /* top post */
@@ -218,58 +255,89 @@
     .headtop-post
     {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        border-bottom: 4px solid rgba(255, 166, 0, 0.708);
-        height: 45px;
-        width: 150px;
-        right: 280px;
-        margin: 15px 0;
+        border-bottom: 3px solid rgba(255, 166, 0, 0.708);
+        height: 5%;
+        width: 35%;
+        position: block;
+        margin: 3% 0 4% 4%;
+        font-size: xx-large;
     }
     .toppost{
-        height: 7rem;
-        width: 95vw;
-        padding: 12px 8px;
+        height: 12%;
+        width: 95%;
+        padding: 3% 2%;
         border-radius: 10px;
         margin: 0 auto 10px auto;
     }
     .topimg
     {
-        height: 5.5rem;
-        width: 8rem;
+        height: 100%;
+        width: 35%;
     }
     .top-head{
-        font-size: 14px;
+        font-size: 80%;
+        height: 79%;
+        width: 100%;
         padding-top: 0.2rem;
     }
     .top-text span{
-        font-size: 13px;
+        font-size: 65%;
+    }
+
+    /* top 1 */
+    .toppost-1{
+        height: 34%;
+        width: 95%;
+        padding: 3% 2%;
+        margin: 0 auto 10px auto;
+    }
+    .topimg-1
+    {
+        height: 70%;
+        width: 98%;
+        margin: 0 auto;
+    }
+    .top-text-1
+    {
+        margin: 0 auto;
+        width: 97%;
+        height: 30%;
+    }
+    .top-head-1{
+        padding: 4% 0 0 0;
+        font-size: 98%;
+        height: 100%;
+    }
+    .top-text-1 span{
+        font-size: 80%;
     }
 }
 
 /* ipad */
-@media only screen and (orientation:portrait) and (min-width: 768px) and (max-width: 1024px)
+@media only screen and (orientation:portrait) and (min-width: 768px) 
 {
     .Parent-container-comp{
-        grid-template-columns: 45% 50%;
+        grid-template-columns: 55% 40%;
         grid-template-rows: auto auto ;
     }
     .child1
     {
         grid-area: 1/1/3/2;
+        margin-bottom: 36%;
     }
     .child2
     {
         grid-area: 1/2/2/3;
-        height: 28rem;
-        width: 19.2rem;
-        margin: 0 0 0 auto ;
+        height:85%;
+        width: 100%;
     }
     .child3
     {
         grid-area: 2/2/3/3;
-        width: 19rem;
-        height: 42vh;
+        width: 100%;
+        height: 85%;
         padding-left: 0px;
-        margin:0 0 0 auto;
+        margin: 0;
     }
 
     /* page content */
@@ -284,8 +352,8 @@
     }
     .Page-content
     {
-        height: 8rem;
-        width: 30rem;
+        height: 13%;
+        width: 100%;
         padding: 12px 6px;
         border-radius: 10px;
         margin: 0 0 20px 0;
@@ -293,8 +361,8 @@
 
     .img
     {
-        width: 8rem;
-        height: 6.5rem;  
+        width: 29%;
+        height: 100%;  
     }
     .text
     {
@@ -302,24 +370,58 @@
     }
     .heading
     {
-        font-size: 14px;
-        height: 50px;
+        font-size: 87%;
+        height: 47%;
         padding-top: 7px;
     }
     .desc
     {
-        height: 38px;
+        height: 38%;
         padding-top: 2px;
-        font-size: 12px;
+        font-size: 75%;
     }
     .text span{
-        font-size: 10px;
+        font-size: 65%;
     }
     .load
     {
         font-size: 23px;
         width: 11rem;
         height: 4rem;
+    }
+
+    /* top post 1 */
+
+    .toppost-1{
+        display: flex;
+        flex-direction: column;
+        height: 43%;
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 12px 0 0 0;
+    }
+    .topimg-1
+    {
+        height: 60%;
+        width: 90%;
+        margin-left: 14px;
+    }
+    .top-text-1
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 13px;
+    }
+    .top-head-1{
+        font-weight: bold;
+        font-size: 100%;
+        padding-top: 0;
+        height: 100%;
+        width: 95%;
+        margin: 4% 0 3% 0;
+    }
+    .top-text-1 span{
+        font-size: 1rem;
     }
 
     /* top post */
@@ -334,23 +436,24 @@
         font-size: 25px;
     }
     .toppost{
-        height: 6.7rem;
-        width: 38vw;
-        padding: 12px 8px;
+        height: 18%;
+        width: 100%;
+        padding: 3.9% 2%;
         border-radius: 10px;
-        margin: 0 0 12px auto;
+        margin: 0 0 10px 0;
     }
     .topimg
     {
-        height: 5.2rem;
-        width: 7rem;
+        height: 100%;
+        width: 38%;
     }
     .top-head{
-        font-size: 13px;
+        font-size: 80%;
         padding-top: 0.2rem;
+        height: 79%;
     }
     .top-text span{
-        font-size: 13px;
+        font-size: 70%;
     }
 }
 
