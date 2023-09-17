@@ -7,7 +7,6 @@ import Hollywood from './Hollywood'
 import Technology from './Technology'
 import Fitness from './Fitness'
 import Newpage from './Newpage'
-import Food from './Food'
 
 const DataProvide = () => {
     const [data] = useState([
@@ -568,7 +567,6 @@ const DataProvide = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/bollywood' element={<Bollywood/>} />
         <Route path='/technology' element={<Technology/>} />
-        <Route path='/food' element={<Food/>} />
         <Route path='/hollywood' element={<Hollywood/>} />
         <Route path='/fitness' element={<Fitness/>} />
         <Route path='/news/:id/:category' element={<Newpage/>} />

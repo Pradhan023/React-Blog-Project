@@ -122,7 +122,7 @@ const Home = () => {
               }
           })}
           </div>
-          {/* <button onClick={()=>ssetcount(scount+3)} className='home-load'>Load more 🔃  </button> */}
+          <button onClick={()=>ssetcount(scount+3)} className='home-load'>Load more 🔃  </button>
           </div>
 
     </div>

@@ -14,6 +14,7 @@
     grid-template-rows: 0.6fr 1fr;
     justify-content: center;
     margin-top: 2rem;
+    cursor: pointer;
 }
 
 
@@ -100,7 +101,7 @@
 }
 .toppost{
     display: flex;
-    height: 8rem;
+    height:15%;
     width: 25rem;
     margin-bottom: 12px;
     background-image: linear-gradient(to left top, #7587a2, #8d96ab, #a3a6b5, #b6b6be, #c8c8c8);
@@ -257,7 +258,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         border-bottom: 3px solid rgba(255, 166, 0, 0.708);
         height: 5%;
-        width: 35%;
+        width: 37%;
         position: block;
         margin: 3% 0 4% 4%;
         font-size: xx-large;
@@ -324,6 +325,151 @@
     {
         grid-area: 1/1/3/2;
         margin-bottom: 36%;
+    }
+    .child2
+    {
+        grid-area: 1/2/2/3;
+        height:85%;
+        width: 100%;
+    }
+    .child3
+    {
+        grid-area: 2/2/3/3;
+        width: 100%;
+        height: 85%;
+        padding-left: 0px;
+        margin: 0;
+    }
+
+    /* page content */
+    
+    .headcategory
+    {
+        border-bottom: 3px solid rgba(255, 166, 0, 0.708);
+        height: 35px;
+        width: 80px;
+        margin: 2px 0 20px 8px;
+        font-size: 28px;
+    }
+    .Page-content
+    {
+        height: 13%;
+        width: 100%;
+        padding: 12px 6px;
+        border-radius: 10px;
+        margin: 0 0 20px 0;
+    }
+
+    .img
+    {
+        width: 29%;
+        height: 100%;  
+    }
+    .text
+    {
+        margin-left: 6px;
+    }
+    .heading
+    {
+        font-size: 87%;
+        height: 47%;
+        padding-top: 7px;
+    }
+    .desc
+    {
+        height: 38%;
+        padding-top: 2px;
+        font-size: 75%;
+    }
+    .text span{
+        font-size: 65%;
+    }
+    .load
+    {
+        font-size: 23px;
+        width: 11rem;
+        height: 4rem;
+    }
+
+    /* top post 1 */
+
+    .toppost-1{
+        display: flex;
+        flex-direction: column;
+        height: 43%;
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 12px 0 0 0;
+    }
+    .topimg-1
+    {
+        height: 60%;
+        width: 90%;
+        margin-left: 14px;
+    }
+    .top-text-1
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 13px;
+    }
+    .top-head-1{
+        font-weight: bold;
+        font-size: 100%;
+        padding-top: 0;
+        height: 100%;
+        width: 95%;
+        margin: 4% 0 3% 0;
+    }
+    .top-text-1 span{
+        font-size: 1rem;
+    }
+
+    /* top post */
+
+    .headtop-post
+    {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 4px solid rgba(255, 166, 0, 0.708);
+        height: 35px;
+        width: 101px;
+        margin: 14px 0;
+        font-size: 25px;
+    }
+    .toppost{
+        height: 18%;
+        width: 100%;
+        padding: 3.9% 2%;
+        border-radius: 10px;
+        margin: 0 0 10px 0;
+    }
+    .topimg
+    {
+        height: 100%;
+        width: 38%;
+    }
+    .top-head{
+        font-size: 80%;
+        padding-top: 0.2rem;
+        height: 79%;
+    }
+    .top-text span{
+        font-size: 70%;
+    }
+}
+
+/* big screen */
+
+@media only screen and (orientation:landscape) and (min-width: 1024px) and (max-width: 1280px) 
+{
+    .Parent-container-comp{
+        grid-template-columns: 58% 36%;
+        grid-template-rows: auto auto ;
+    }
+    .child1
+    {
+        grid-area: 1/1/3/2;
+        margin-bottom: 25%;
     }
     .child2
     {

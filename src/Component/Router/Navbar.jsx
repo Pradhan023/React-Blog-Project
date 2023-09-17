@@ -21,7 +21,6 @@ const Navbar = () => {
       <NavLink to='/bollywood' className='textlink'>Bollywood</NavLink>
       <NavLink to='/hollywood' className='textlink'>Hollywood</NavLink>
       <NavLink to='/technology' className='textlink'>Technology</NavLink>
-      <NavLink to='/food' className='textlink'>Food</NavLink>
       <NavLink to='/fitness' className='textlink'>Fitness</NavLink>
       </div>
       
