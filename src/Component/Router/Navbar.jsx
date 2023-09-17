@@ -1,17 +1,20 @@
 import React, { useState } from 'react'
-import {NavLink} from 'react-router-dom'
+import {NavLink, useNavigate} from 'react-router-dom'
 import './Navbar.css'
 import menu from '../../assets/menu_FILL0_wght400_GRAD0_opsz48.svg'
 
 const Navbar = () => {
-  const[on,setOn] = useState(false)
+  const[on,setOn] = useState(true)
+  const Nav = useNavigate()
 
   return (
     <div className='nav-parent'>
+      <button className='nav-btn' onClick={() => Nav('/')} >
       <div className="siren">
           <p>The</p>
           <h2>Siren</h2>
         </div>
+      </button>
         <button  onClick={()=> setOn(!on)} className='menu-icon' >
         <img src={menu} className='menu'/>
         </button>

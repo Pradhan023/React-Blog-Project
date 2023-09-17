@@ -23,6 +23,11 @@
     font-size: 34px;
     transform: rotate(271deg);
 }
+.nav-btn{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
 .Navbar
 {
     display: flex;

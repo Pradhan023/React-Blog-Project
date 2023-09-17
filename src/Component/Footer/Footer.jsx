@@ -25,7 +25,6 @@ const Footer = () => {
                 <Link to='/bollywood' className='flink'>Bollywood</Link>
                 <Link to='/hollywood' className='flink'>Hollywood</Link>
                 <Link to='/technology' className='flink'>Technology</Link>
-                <Link to='/food' className='flink'>Food</Link>
                 <Link to='/fitness' className='flink'>Fitness</Link>
                 {/* </p> */}
             </div>
