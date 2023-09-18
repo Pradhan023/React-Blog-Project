@@ -106,6 +106,7 @@
         display: grid;
         grid-template-rows: repeat(3,auto);
         grid-template-columns: 0.1fr auto 0.1fr;
+        cursor: none;
     }
     /* foot 1 */
 
@@ -189,6 +190,7 @@
         grid-template-rows: auto ;
         grid-template-columns: repeat(5,auto);
         padding: 5% 0;
+        cursor: none;
     }
     
     /* foot 1 */
@@ -274,6 +276,7 @@
         grid-template-rows: auto ;
         grid-template-columns: repeat(5,auto);
         padding: 5% 0;
+        cursor: none;
     }
     
     /* foot 1 */
