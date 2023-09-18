@@ -17,6 +17,7 @@
 .logo{
     width: 120px;
     text-align: center;
+    cursor: pointer;
 }
 .logo p
 {
@@ -36,6 +37,7 @@
     padding: 0.7% 1.5% 2.5% 1.5%;
     height: 2rem;
     margin-top: 0.6%;
+    cursor: pointer;
 }
 .btn p
 {
@@ -173,6 +175,7 @@
     }
     .logo{
         width: 30%;
+        cursor: none;
     }
     .logo p
     {
@@ -195,6 +198,7 @@
         padding: 2% 2% 5% 2%;
         margin-top: 0.3rem;
         height: 2.2rem;
+        cursor: none;
     }
     .btn p
     {
@@ -319,6 +323,7 @@
     }
     .logo{
         width: 1.5rem;
+        cursor: none;
     }
     .logo p
     {
@@ -342,6 +347,7 @@
         padding: 2% 2% 2% 2%;
         height: 3.7rem;
         margin-top: 0rem;
+        cursor: none;
     }
     .btn p
     {
@@ -467,6 +473,7 @@
     }
     .logo{
         width: 3rem;
+        cursor: none;
     }
     .logo p
     {
@@ -491,6 +498,7 @@
         padding: 0.8rem;
         height: 4rem;
         margin-top: 0.8rem;
+        cursor: none;
     }
     .btn p
     {
