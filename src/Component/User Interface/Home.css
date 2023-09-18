@@ -225,6 +225,7 @@
         justify-content: start;
         gap: 2rem 0 ;
         margin-top: 3rem;
+        cursor: none;
     }
     /* home top img */
 

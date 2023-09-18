@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+.nav-parent{
+    text-align: center;
+}
 .siren
 {
     display: flex;
@@ -23,8 +26,8 @@
     font-size: 34px;
     transform: rotate(271deg);
 }
+
 .nav-btn{
-    width: 100%;
     border: none;
     background-color: transparent;
 }
@@ -71,8 +74,14 @@
 
 @media only screen and (max-width: 768px)
 {
-    .siren{
+    .nav-parent{
+        position: sticky;
+        width: 100%;
         background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
+        top: -1px;
+        text-align: left;
+    }
+    .siren{
         justify-content: start;
         height: 4rem;
         padding: 0;
@@ -116,8 +125,14 @@
 /* ipad */
 @media only screen and (orientation:portrait) and (min-width: 768px) 
 {
-    .siren{
+    .nav-parent{
+        position: sticky;
+        width: 100%;
         background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
+        top: -1px;
+        text-align: left;
+    }
+    .siren{
         justify-content: start;
         height: 5rem;
         padding: 0;
