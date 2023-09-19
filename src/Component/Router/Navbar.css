@@ -80,6 +80,7 @@
         background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
         top: -1px;
         text-align: left;
+        z-index: 1;
     }
     .siren{
         justify-content: start;
