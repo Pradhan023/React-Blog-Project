@@ -7,6 +7,9 @@ import Fb from '../../assets/facebook.png'
 import Tweet from '../../assets/twitter.png'
 
 const Footer = () => {
+  const ScrolltoTop = () => {
+    window.scrollTo(0,0);
+  }
   return (
     <>
     <div className='Footer-Grid-Parent'>
@@ -21,11 +24,11 @@ const Footer = () => {
             <div className="foot-flex1">
                 <h1>Quick Links</h1>
                 {/* <p> */}
-                <Link to='/' className='flink'>Home</Link>
-                <Link to='/bollywood' className='flink'>Bollywood</Link>
-                <Link to='/hollywood' className='flink'>Hollywood</Link>
-                <Link to='/technology' className='flink'>Technology</Link>
-                <Link to='/fitness' className='flink'>Fitness</Link>
+                <Link to='/' className='flink' onClick={ScrolltoTop}>Home</Link>
+                <Link to='/bollywood' className='flink' onClick={ScrolltoTop} >Bollywood</Link>
+                <Link to='/hollywood' className='flink' onClick={ScrolltoTop} >Hollywood</Link>
+                <Link to='/technology' className='flink' onClick={ScrolltoTop} >Technology</Link>
+                <Link to='/fitness' className='flink' onClick={ScrolltoTop} >Fitness</Link>
                 {/* </p> */}
             </div>
         </div>
