@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     const Data  = useContext(Store)
     const [count,setcount] = useState(4)
-    const [scount,ssetcount] = useState(3)
+    const [scount,ssetcount] = useState(2)
   return (
     <>
     <Navbar/>
@@ -122,7 +122,7 @@ const Home = () => {
               }
           })}
           </div>
-          <button onClick={()=>ssetcount(scount+3)} className='home-load'>Load more 🔃  </button>
+          <button onClick={()=>ssetcount(scount+2)} className='home-load'>Load more 🔃  </button>
           </div>
 
     </div>

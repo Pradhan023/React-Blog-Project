@@ -14,7 +14,7 @@
 
 .foot-1{
     grid-area: 1/2/2/3;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .foot-siren
 {
@@ -275,7 +275,7 @@
     .Footer-Grid-Parent{
         grid-template-rows: auto ;
         grid-template-columns: repeat(5,auto);
-        padding: 5% 0;
+        padding: 1.2% 0;
         cursor: none;
     }
     

@@ -165,7 +165,7 @@
 .child3
 {
     grid-area: 2/2/3/3;
-    width: 26vw;
+    width: 25rem;
     height: 110vh;
     padding-left: 10px;
 }
