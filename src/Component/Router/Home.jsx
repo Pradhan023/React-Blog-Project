@@ -17,7 +17,7 @@ const Home = () => {
 
       <div className="imgcont-grid">
       <div className="image-collage">
-        <img className="image-collage1" src='https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/disha-patanis-glittery-nde-dress-revealing-her-navel-bbs-in-a-cleavage-hugging-string-tied-top-shamed-by-netizens-001.jpg' />
+        <img className="image-collage1" src='https://www.hindustantimes.com/ht-img/img/2023/09/22/550x309/jawan_box_office_1695378666222_1695378666455.jpeg' />
         <img className="image-collage2"  src='https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/zack-snyders-justice-league-sequel-had-plans-of-making-this-villain-a-big-baddy-of-the-dc-universe.jpg' />
         <img className="image-collage3"  src='https://i.gadgets360cdn.com/large/Bermix_Studio_cryptoscam_unsplash_bigpic_1640680220999.jpg?downsize=950:*' />
       </div>

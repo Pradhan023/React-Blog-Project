@@ -12,10 +12,10 @@ const DataProvide = () => {
     const [data] = useState([
         {
             id: 0,
-            heading: 'Deepika Padukone shares friendship day note that reads marry your best friend, tags Ranveer Singh' ,
-            image: 'https://www.hindustantimes.com/ht-img/img/2023/08/06/550x309/deepika_1691339130325_1691339130658.jpg' ,
-            description: 'On the occasion of Friendship Day, Deepika Padukone dedicated a special note for Ranveer Singh, where she called him her ‘best friend.',
-            contentDesc: 'Deepika Padukone is celebrating Friendship Day on Sunday with a sweet note for her actor-husband Ranveer Singh. The actor shared a note on her Instagram Stories that began with, "Marry your best friend," and tagged Ranveer in it. (Also read: Ranveer Singh reveals Deepika Padukone was ‘clapping, whistling’ while watching Rocky Aur Rani Kii Prem Kahaani)',
+            heading: "Sonakshi Sinha gives a tour of her new sea facing house, says she has fulfilled her dream. Watch" ,
+            image: "https://images.indianexpress.com/2023/09/sonakshi-sinha-1200.jpg?w=640" ,
+            description: "Sonakshi Sinha gave a tour of her new apartment in a video. The actor was previously living with her parents and has now moved into a separate apartment.",
+            contentDesc: "Sonakshi Sinha, who was last seen in the Amazon Prime Video web series Dahaad, recently gave her fans a sneak peek into her new house in Mumbai. The actor, who was previously living in her parents’ building, has now moved into a separate space and shared her minimalistic aesthetic in a video. Sonakshi said that she always dreamed of owning a house and feels that her dream is now fulfilled. Talking to Architectural Digest India, the Dabangg actor said, “I often heard my dad talk about how special his first house was, which he bought with his own money when he moved to Bombay to become an actor. He still talks about it, and he still actually has it! So this is it. Here we are today, a very fulfilled dream of mine.”",
             category: 'Bollywood',
             Anish: 'Pradhan'
         },
@@ -30,10 +30,10 @@ const DataProvide = () => {
         },
         {
             id: 2,
-            heading: 'Katrina Kaif drops romantic pictures with Vicky Kaushal from their sea-facing balcony ' ,
-            image: 'https://www.hindustantimes.com/ht-img/img/2023/08/06/550x309/vicky_kaushal_katrina_kaif_1691323072024_1691323072258.jpg' ,
-            description: 'After returning to Mumbai on Sunday afternoon, Katrina Kaif shared a few candid clicks from her home with husband Vicky Kaushal.',
-            contentDesc: 'Katrina Kaif seems to have had a relaxing Sunday with husband Vicky Kaushal. She took to her Instagram Stories Sunday evening to share a few glimpses from their time in the balcony of their sea-facing apartment. It includes a picture of Vicky looking at the view while standing in the balcony and another showing the couple having a romantic moment which Katrina shared with a heart emoji. Katrina Kaif has shared a few pictures from her time at home on Sunday.',
+            heading: 'Jawan box office collection day 15: Shah Rukh Khan film grosses ₹937 crore worldwide ' ,
+            image: 'https://www.hindustantimes.com/ht-img/img/2023/09/22/550x309/jawan_box_office_1695378666222_1695378666455.jpeg' ,
+            description: "Jawan box office collection: Shah Rukh Khan's film Jawan is performing very well worldwide. It was released on September 7 amid phenomenal buzz.",
+            contentDesc: "Shah Rukh Khan's Jawan has been unstoppable at the box office. Shah Rukh's wife Gauri Khan, who has backed the film under Red Chillies Entertainment, took to Instagram Stories on Friday to share the latest worldwide box office collection of Jawan. The poster from Jawan that she shared said, Shattering box office records – ₹937.61 crore worldwide (gross).",
             category: 'Bollywood',
             Anish: 'Pradhan'
         },
@@ -66,10 +66,10 @@ const DataProvide = () => {
         },
         {
             id: 6,
-            heading: 'After Jr NTR, Janhvi Kapoor manifests working with THIS Bollywood hero' ,
-            image: 'https://st1.bollywoodlife.com/wp-content/uploads/2023/07/janhvi-Kapoor-And-Varun-Dhawan-Bawaal-Screening-8.png?impolicy=Medium_Widthonly&w=1280&h=900' ,
-            description: 'Jahnvi Kapoor is currently basking on the success of Bawaal for which she paired up with Varun Dhawan. Bawaal is streaming on Amazon Prime Video.',
-            contentDesc: 'Janhvi Kapoor is currently basking on the success her latest film Bawaal alongside Varun Dhawan. This film is directed by Nitesh Tiwari and is receiving mixed responses on the internet from its audiences. The talented and versatile actress has established herself as one of the most sought-after talents in Bollywood with her notable film choices. Unlike many of her contemporaries, Janhvi prefers to take on author-backed roles instead of typical Hindi film heroine characters. The actress is busy promoting the film, talking about various aspects of her character and what made her say yes to it.',
+            heading: "Sara Ali Khan attends Kartik Aaryan’s Ganesh Chaturthi celebration, actor gives a glimpse of his home" ,
+            image: "https://images.indianexpress.com/2023/09/Kartik-Aaryan-sara-ali-khan-1200.jpg?w=640",
+            description: "Raveena Tandon's daughter Rasha Thadani shared a photo as Manish Malhotra, Sara Ali Khan, and Kartik Aaryan posed for a click.",
+            contentDesc: "Kartik Aaryan hosted a Ganesh Chaturthi celebration at his home and his friends from the industry including Ekta Kapoor, Manish Malhotra, Mrunal Thakur, Kabir Khan, Mini Mathur, Bhushan Kumar, Raj Shandilya, Jackky Bhagnani, Rohit Dhawan, Anand Pandit, Aman Gill, Warda Khan, Aroosa Khan, Bhushan Kumar and Madhu Mantena came to seek blessings. However, the limelight was certainly on the arrival of Sara Ali Khan. Sara Ali Khan was clicked as she arrived at Kartik Aaryan‘s house with Manish Malhotra. She was dressed in a pink suit. An inside photo from last night was shared by Raveena Tandon’s daughter Rasha Thadani, where Sara and Kartik posed together.",
             category: 'Bollywood',
             Anish: 'Pradhan'
         },
@@ -84,19 +84,19 @@ const DataProvide = () => {
         },
         {
             id: 8,
-            heading: 'Disha Patani turns up the heat in red HOT bikini and fans are melting' ,
-            image: 'https://st1.bollywoodlife.com/wp-content/uploads/2023/08/MicrosoftTeams-image-2023-08-06T143301.410.jpg?impolicy=Medium_Widthonly&w=1280&h=900' ,
-            description: 'Disha Patani drops her super sexy picture wearing a red hot bikini; fans ask her to stop killing it with her hotness.',
-            contentDesc: 'Disha Patani is once again setting screens on fire, and fans are calling her the hottest property in tinseltown. Disha dropped her stunning pictures and is setting the internet ablaze. Disha Patani is leaving her fans to go WOW, and we can even... Disha is a stunner, and she knows it, and these pictures are proof she is a born slayer. ',
+            heading: "Animal poster: Anil Kapoor looks sick in more ways than one as Ranbir Kapoor's ‘baap’" ,
+            image: "https://www.hindustantimes.com/ht-img/img/2023/09/21/550x309/anil_animal_1695300631426_1695300687630.jpg" ,
+            description: "The first look of Anil Kapoor from Sandeep Reddy Vanga's Animal was unveiled on Thursday. The actor plays Ranbir Kapoor's father in the film.",
+            contentDesc: "Anil Kapoor unveiled his look from Sandeep Reddy Vanga's Animal on Thursday. The 66-year-old actor plays protagonist Ranbir Kapoor's father in the film. Anil looks intense, deranged, and 'sick' in the new poster. The first look of Anil from Animal shows him sitting on a wooden sofa chair and staring into the camera. He's wearing a blue track suit open from the front. Interestingly, he looks not only intense, but also literally sick. His eyes are swollen and blackened. He's also wearing an IV drip, suggesting that he's unwell. A lot of colourful flowers adorn the background in what looks like a wallpaper.",
             category: 'Bollywood',
             Anish: 'Pradhan'
         },
         {
             id: 9 ,
-            heading: 'Urfi Javed gets bullied by a gang of boys on a flight while travelling to Goa,pictures go VIRAL' ,
-            image: 'https://st1.bollywoodlife.com/wp-content/uploads/2023/07/MicrosoftTeams-image-2023-07-21T181935.636.jpg?impolicy=Medium_Widthonly&w=1280&h=900' ,
-            description: 'Urfi Javed travels to Goa in economy class and gets bullied by the gang of boys on the flight and these pictures will leave you stunned.',
-            contentDesc: 'Urfi Javed was recently photographed in a completely different avatar at the Mumbai airport. Urfi even displayed a placard to draw attention to Manipur violence. She was papped at the airport in a coloured her hair in a pinkish shade that left everyone amazed. Urfi was seen travelling as she was heading for a quick vacation in Goa but this was the first time she travelled in economy class, and what happened to her is very disturbing as she had to face the unworthy behaviour of a few passengers towards her.',
+            heading: "Fans call Amy Jackson Cillian Murphy’s doppelganger in latest photos: ‘The estranged sister of Thomas Shelby’" ,
+            image: "https://images.indianexpress.com/2023/09/Amy.jpg?w=640" ,
+            description: "Fans found similarities between actor Amy Jackson's latest look and Irish actor Cillian Murphy, known for his roles in Peaky Blinders and Oppenheimer.",
+            contentDesc: "Fans couldn’t get enough of Irish actor Cillian Murphy’s captivating appearance during the promotional events for his film Oppenheimer. The actor’s every little move became a sensation with fans drooling over his deep blue eyes and razor sharp jawline. The obsession with Cillian is so much that they recently drew comparisons between British-Indian actor Amy Jackson and Cillian. Amy shared a series of pictures from a recent outing with her boyfriend, Ed Westwick. In these photos, her cheekbones appeared more prominent than usual and her haircut seemed to take inspiration from Cillian’s iconic character, Thomas Shelby, in the popular show Peaky Blinders. Fans couldn’t help but notice the similarities and began making comparisons.",
             category: 'Bollywood',
             Anish: 'Pradhan'
         },
@@ -120,10 +120,10 @@ const DataProvide = () => {
         },
         {
             id:12 ,
-            heading: "Disha Patani Shamed For Giving A Good Display Of Her B**bs In A Cleav*ge Hugging Dress",
-            image:  "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/disha-patanis-glittery-nde-dress-revealing-her-navel-bbs-in-a-cleavage-hugging-string-tied-top-shamed-by-netizens-001.jpg",
-            description: "Disha Patani was spotted in a glittery outfit revealing her curvaceous figure which did not go down too well with the internet who shamed her dressing.",
-            contentDesc: "Disha Patani has had an interesting journey from being Tiger Shroff’s muse to becoming a fashion icon. She is known for her bold and s*xy looks and has often been criticized for her revealing outfits. Still the diva has never shied away from her own personal style, and she has inspired a legion of fans with her confidence and self-assurance.",
+            heading: "Nawazuddin Siddiqui says he didn’t want to deliver a ‘Hollywood-ian’ performance in Haddi: ‘Transgender people have a loud personality’",
+            image:  "https://images.indianexpress.com/2023/09/Nawazuddin-Siddiqui.jpg?w=640",
+            description: "Nawazuddin Siddiqui said that he did not want to deliver a subdued performance in Haddi as he had seen transgender people being loud in real life.",
+            contentDesc: "Nawazuddin Siddiqui plays a transgender character in his latest film Haddi. Speaking about his performance, the actor shared that he wanted to make it loud because that’s how he has seen transgender people behave in real life. Nawazuddin said that almost two decades ago, when he lived in Delhi, he lived close to a colony which was largely populated by transgender people and he drew from his observations of that time to play the character of Harika. They have a loud personality. They talk in a higher volume. They shriek when they are crying,” he told Film Companion. The actor said that he did not want to be “Hollywood-ian” and give a “subdued” performance here because that wouldn’t have matched his character. ",
             category: 'Bollywood',
             Anish: 'Pradhan'
         },
