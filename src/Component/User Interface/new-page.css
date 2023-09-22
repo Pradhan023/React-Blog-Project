@@ -34,9 +34,9 @@
 }
 .btn{
     border: 3px solid #03A87C;
-    padding: 0.7% 1.5% 2.5% 1.5%;
-    height: 2rem;
-    margin-top: 0.6%;
+    padding:1rem;
+    height: 4rem;
+    margin-top: 0.2rem;
     cursor: pointer;
 }
 .btn p
@@ -195,7 +195,7 @@
     }
     .btn{
         border: 2px solid #03A87C;
-        padding: 2% 2% 5% 2%;
+        padding: 0.5rem;
         margin-top: 0.3rem;
         height: 2.2rem;
         cursor: none;
@@ -314,7 +314,7 @@
 /* ipad */
 
 
-@media only screen and (orientation:portrait) and (min-width:768px)
+@media only screen  and (min-width:768px) and (max-width: 1023px)
 {
     .newpage-navbar{
         padding: 3% 2%;
@@ -344,7 +344,7 @@
     }
     .btn{
         border: 2px solid #03A87C;
-        padding: 2% 2% 2% 2%;
+        padding: 0.8rem;
         height: 3.7rem;
         margin-top: 0rem;
         cursor: none;
