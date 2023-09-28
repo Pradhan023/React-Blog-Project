@@ -155,11 +155,15 @@
     .foot-3{
         grid-area: 3/2/4/3;
         margin: 20px auto;
+        width: 100%;
     }
     .foot-flex2{
         line-height: 3.2rem;
     }
     .foot-flex2 h1{
+        text-align: center;
+    }
+    .foot-text{
         text-align: center;
     }
     .foot-text img{
@@ -168,6 +172,9 @@
     .foot-mail img
     {
         height: 1.8rem;
+    }
+    .foot-mail{
+        text-align: center;
     }
     /* logo */
 
@@ -185,13 +192,7 @@
     }
 }
 
-/* small */
-@media only screen and (max-width: 228px)
-{
-    .foot-mail{
-        font-size: 0.9rem;
-    }
-}
+
 /* ipad */
 @media only screen  and (min-width: 768px) and (max-width: 1023px)
 {
