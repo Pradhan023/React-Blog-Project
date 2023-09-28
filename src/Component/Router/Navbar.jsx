@@ -6,6 +6,9 @@ import menu from '../../assets/menu_FILL0_wght400_GRAD0_opsz48.svg'
 const Navbar = () => {
   const[on,setOn] = useState(true)
   const Nav = useNavigate()
+  const ScrollTo = () =>{
+    window.scrollTo(0,0)
+  }
 
   return (
     <div className='nav-parent'>
@@ -20,11 +23,11 @@ const Navbar = () => {
         </button>
 
       <div className={on ? "Navbar stayopen " : "Navbar"}>
-      <NavLink to='/' className='textlink'>Home</NavLink>
-      <NavLink to='/bollywood' className='textlink'>Bollywood</NavLink>
-      <NavLink to='/hollywood' className='textlink'>Hollywood</NavLink>
-      <NavLink to='/technology' className='textlink'>Technology</NavLink>
-      <NavLink to='/fitness' className='textlink'>Fitness</NavLink>
+      <NavLink onClick={ScrollTo} to='/' className='textlink'>Home</NavLink>
+      <NavLink onClick={ScrollTo} to='/bollywood' className='textlink'>Bollywood</NavLink>
+      <NavLink onClick={ScrollTo} to='/hollywood' className='textlink'>Hollywood</NavLink>
+      <NavLink onClick={ScrollTo} to='/technology' className='textlink'>Technology</NavLink>
+      <NavLink onClick={ScrollTo} to='/fitness' className='textlink'>Fitness</NavLink>
       </div>
       
     </div>
