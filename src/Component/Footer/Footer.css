@@ -104,7 +104,7 @@
 
 /* mobile */
 
-@media only screen and (max-width: 768px)
+@media only screen and ((orientation:portrait) or (orientation:landscape)) and (max-width: 768px)
 {
     .Footer-Grid-Parent{
         display: grid;
@@ -169,7 +169,6 @@
     {
         height: 1.8rem;
     }
-
     /* logo */
 
     .foot-flex2 h2{
@@ -186,6 +185,13 @@
     }
 }
 
+/* small */
+@media only screen and (max-width: 228px)
+{
+    .foot-mail{
+        font-size: 0.9rem;
+    }
+}
 /* ipad */
 @media only screen  and (min-width: 768px) and (max-width: 1023px)
 {
