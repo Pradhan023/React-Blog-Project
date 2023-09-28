@@ -10,8 +10,8 @@ const App = () => {
     <div>
       <Suspense fallback={<div class="lds-dual-ring"></div>}>
       <Compdisplay/>
-      </Suspense>
       <Footer/>
+      </Suspense>
     </div>
   )
 }
