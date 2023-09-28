@@ -77,7 +77,9 @@
     .nav-parent{
         position: sticky;
         width: 100%;
-        background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
+        background-color: white;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        /* background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989); */
         top: -1px;
         text-align: left;
         z-index: 1;
@@ -108,7 +110,8 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
+        background-color: white;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
         height: 12rem;
         line-height: 1rem;
         width: 100%;
@@ -129,7 +132,8 @@
     .nav-parent{
         position: sticky;
         width: 100%;
-        background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
+        background-color: white;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
         top: -1px;
         text-align: left;
     }
@@ -161,11 +165,13 @@
     .Navbar{
         flex-direction: column;
         text-align: center;
-        background-image: linear-gradient(to left bottom, #e9e9e9, #e4e4e9, #dfe0e9, #d9dbe9, #d2d7e9, #cacfe1, #c1c7d8, #b9bfd0, #aeb1be, #a2a3ac, #96969a, #898989);
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
         height: 25rem;
         line-height: 1rem;
         position: absolute;
-        right: 10px;
+        top: 5.03rem;
+        right:10px;
     }
     .textlink{
         border-bottom: 2px solid rgb(219, 219, 219);

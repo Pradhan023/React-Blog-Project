@@ -73,9 +73,10 @@
     width: 24%;
     height: 100%;
     padding: 1% 1%;
-    background-image: linear-gradient(to top, #7587a2, #8d96ab, #a3a6b5, #b6b6be, #c8c8c8);
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-bottom: 2px solid rgb(219, 219, 219);
+    border-top: 2px solid rgb(219, 219, 219);
 }
 .imgthelat
 {
@@ -111,8 +112,9 @@
     width: 100%;
     padding: 12px 10px;
     border-radius: 10px;
-    background-image: linear-gradient(to left top, #7587a2, #8d96ab, #a3a6b5, #b6b6be, #c8c8c8);
-    box-shadow: rgba(56, 56, 56, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-bottom: 2px solid rgb(219, 219, 219);
+    border-top: 2px solid rgb(219, 219, 219);
 }
 .latest-article-text{
     display: flex;
@@ -194,9 +196,10 @@
     width: 45%;
     height: 25rem;
     padding: 2% 2% ;
-    background-image: linear-gradient(to top, #7587a2, #8d96ab, #a3a6b5, #b6b6be, #c8c8c8);
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-bottom: 2px solid rgb(219, 219, 219);
+    border-top: 2px solid rgb(219, 219, 219);
 }
 .st-cont h1
 {

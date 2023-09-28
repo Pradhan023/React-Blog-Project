@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react'
 import './App.css'
-import DataProvide from './Component/Router/DataProvide'
 import Footer from './Component/Footer/Footer'
+import './Component/Loader style/Loader.css'
+
+const Compdisplay = lazy(()=> import('./Component/Router/DataProvide'));
 
 const App = () => {
   return (
     <div>
-      <DataProvide/>
+      <Suspense fallback={<div class="lds-dual-ring"></div>}>
+      <Compdisplay/>
+      </Suspense>
       <Footer/>
     </div>
   )

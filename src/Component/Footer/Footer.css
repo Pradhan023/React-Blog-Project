@@ -3,7 +3,8 @@
     padding: 0;
 }
 .Footer-Grid-Parent{
-    background-image: linear-gradient(to right top, #a3a3a3, #ababac, #b2b2b4, #bababd, #c1c2c6, #c0c2c9, #bfc1cc, #bfc1cf, #b6b9cd, #adb0cb, #a5a8c8, #9ca0c6);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxFKnV_oCdptq1QPNpWr_r8caPwrrVwiw7dQ&usqp=CAU');
+    background-size: 100%;
     display: grid;
     grid-template-rows: 20rem;
     grid-template-columns: 0.6fr 2fr 3fr 2fr 0.1fr;
@@ -36,6 +37,7 @@
 .foot-summary
 {
     color: rgb(101, 101, 101);
+    color: white;
     line-height: 25px;
     margin:15px 0 0  25px;
 }
@@ -57,7 +59,8 @@
     margin-bottom: 9px;
 }
 .flink{
-    color: rgb(101, 101, 101);
+    /* color: rgb(101, 101, 101); */
+    color: white;
 }
 /* foot 3 */
 
@@ -71,7 +74,8 @@
 .foot-flex2 span 
 {
     margin-left: 10px;
-    color: rgb(101, 101, 101);
+    /* color: rgb(101, 101, 101); */
+    color: white;
 }
 .foot-text img{
     height: 2rem;

@@ -9,6 +9,9 @@ const Home = () => {
     const Data  = useContext(Store)
     const [count,setcount] = useState(4)
     const [scount,ssetcount] = useState(2)
+    const ScrollTo = () =>{
+      window.scrollTo(0,0)
+    }
   return (
     <>
     <Navbar/>
@@ -37,7 +40,7 @@ const Home = () => {
             }  ).map((Data,index) =>{
               return(
                     <div key={index} className="Latestcontant">
-                      <Link to={`/news/${Data.id}/${Data.category}`} >
+                      <Link onClick={ScrollTo} to={`/news/${Data.id}/${Data.category}`} >
                       <img src={Data.image} alt='Loading....' className='imgthelat'/>
                       <div style={{padding:'13px'}}>
                       <h2>{Data.heading}</h2>
@@ -90,7 +93,7 @@ const Home = () => {
             <h1 className='Home-head'>Top Post</h1>
           {Data && Data.filter((item)=> item.id % 2 === 0 ).map((Data,index) =>{
               return(
-                  <Link key={index} to={`/news/${Data.id}/${Data.category}`} >
+                  <Link onClick={ScrollTo} key={index} to={`/news/${Data.id}/${Data.category}`} >
                     <HomeToppost index={index} imgurl={Data.image} head={Data.heading} />
                   </Link>
               )
@@ -112,7 +115,7 @@ const Home = () => {
               if (index < scount) {
                 return(
                   <div className='st-cont' key={index}>
-                    <Link to={`/news/${Data.id}/${Data.category}`} >
+                    <Link onClick={ScrollTo} to={`/news/${Data.id}/${Data.category}`} >
                       <h1>{Data.heading}</h1>
                       <p>{Data.description}</p>
                       <span><b>Travel </b>/<small>August 09 2023</small></span>

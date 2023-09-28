@@ -10,6 +10,9 @@ const Bollywood = () => {
     const [count , setCount] = useState(7)
     const Filtered = Data && Data.filter((item)=> item.category === 'Bollywood')
     const [Newcount] = useState(4)
+    const ScrollTo = () =>{
+      window.scrollTo(0,0)
+    }
 
   return (
     <>
@@ -22,7 +25,7 @@ const Bollywood = () => {
           if(index < count)
           {
             return(
-                <Link key={index} to={`/news/${Data.id}/${Data.category}`} >
+                <Link onClick={ScrollTo} key={index} to={`/news/${Data.id}/${Data.category}`} >
                 <UI index={index} imgurl={Data.image} heading={Data.heading} desc={Data.description} />
                 </Link>
           )
@@ -40,7 +43,7 @@ const Bollywood = () => {
             if(index === 0)
             {
                 return (
-                  <Link key={index} to={`/news/${Data.id}/${Data.category}`} >
+                  <Link onClick={ScrollTo} key={index} to={`/news/${Data.id}/${Data.category}`} >
                   <div className="toppost-1" >
                         <img src={Data.image} className='topimg-1'/>
                         <div className='top-text-1'>
@@ -54,7 +57,7 @@ const Bollywood = () => {
 
             if(index > 0 && index < Newcount) {
                 return (
-                  <Link key={index} to={`/news/${Data.id}/${Data.category}`} >
+                  <Link onClick={ScrollTo} key={index} to={`/news/${Data.id}/${Data.category}`} >
                   <div className="toppost" >
                         <img src={Data.image} className='topimg'/>
                         <div className='top-text'>
