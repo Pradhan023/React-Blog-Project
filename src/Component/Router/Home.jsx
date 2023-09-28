@@ -12,6 +12,7 @@ const Home = () => {
     const ScrollTo = () =>{
       window.scrollTo(0,0)
     }
+    
   return (
     <>
     <Navbar/>
@@ -67,7 +68,7 @@ const Home = () => {
           }  ).map((Data,index) =>{
               if (index < count) {
                 return(
-                  <Link key={index} to={`/news/${Data.id}/${Data.category}`} >
+                  <Link onClick={ScrollTo} key={index} to={`/news/${Data.id}/${Data.category}`} >
                       <div className="latest-article-con">
                       <img src={Data.image} alt='Loading..'/>
                       <div className="latest-article-text">

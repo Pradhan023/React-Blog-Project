@@ -14,6 +14,9 @@ const Newpage = () => {
   const[num] = useState(3)
   const filtered = Data.filter((item)=> (item.id == paramId) && (item.category === paramcat) );
   const nav = useNavigate()
+  const ScrollTo = () =>{
+    window.scrollTo(0,0)
+  }
 
   return (
     <>
@@ -71,7 +74,7 @@ const Newpage = () => {
             return(
               <div>
               
-              <Link to={`/morenews/${dd.id}/${dd.category}`}>
+              <Link onClick={ScrollTo} to={`/morenews/${dd.id}/${dd.category}`}>
               <div key={index} className='more-child'>
               <img src={dd.image} className='more-img' alt='Loading....' />
               <h1>{dd.heading}</h1>
