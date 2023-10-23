@@ -12,6 +12,7 @@ const Home = () => {
     const ScrollTo = () =>{
       window.scrollTo(0,0)
     }
+
     
   return (
     <>
@@ -33,7 +34,7 @@ const Home = () => {
       <h1>The Latest</h1>
           <div className="latestcontainer">
           {Data && Data.filter((item)=> { 
-            if (item.id  === 1) {
+            if (item.id  === 1 && item.category !== 'Education') {
               return(
                 item.Anish === 'Pradhan'
                 )

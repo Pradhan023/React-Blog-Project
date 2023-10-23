@@ -8,6 +8,7 @@ import Technology from './Technology'
 import Fitness from './Fitness'
 import Newpage from './Newpage'
 import axios from 'axios'
+import Education from './Educataion'
 
 const DataProvide = () => {
     const [api,setApi] = useState('')
@@ -26,6 +27,7 @@ const DataProvide = () => {
         <Route path='/technology' element={<Technology/>} />
         <Route path='/hollywood' element={<Hollywood/>} />
         <Route path='/fitness' element={<Fitness/>} />
+        <Route path='/education' element={<Education/>} />
         <Route path='/news/:id/:category' element={<Newpage/>} />
         <Route path='/morenews/:id/:category' element={<Newpage/>} />
       </Routes>

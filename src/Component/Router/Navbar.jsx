@@ -28,6 +28,7 @@ const Navbar = () => {
       <NavLink onClick={ScrollTo} to='/hollywood' className='textlink'>Hollywood</NavLink>
       <NavLink onClick={ScrollTo} to='/technology' className='textlink'>Technology</NavLink>
       <NavLink onClick={ScrollTo} to='/fitness' className='textlink'>Fitness</NavLink>
+      <NavLink onClick={ScrollTo} to='/education' className='textlink'>Education</NavLink>
       </div>
       
     </div>
