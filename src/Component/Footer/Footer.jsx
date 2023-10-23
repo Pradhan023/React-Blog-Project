@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 import Tele from '../../assets/telephone-call.png'
