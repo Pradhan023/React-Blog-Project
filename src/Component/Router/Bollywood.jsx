@@ -7,6 +7,7 @@ import '../User Interface/UI.css'
 
 const Bollywood = () => {
     const Data = useContext(Store)
+    console.log(Data);
     const [count , setCount] = useState(7)
     const Filtered = Data && Data.filter((item)=> item.category === 'Bollywood')
     const [Newcount] = useState(4)
@@ -21,7 +22,7 @@ const Bollywood = () => {
         
         <div className="child1">
         <h1 className='headcategory'>Bollywood</h1>
-        {Filtered.map((Data,index) =>{
+        {Filtered && Filtered.map((Data,index) =>{
           if(index < count)
           {
             return(
@@ -37,7 +38,7 @@ const Bollywood = () => {
 
         <div className="child2">
         <h1 className='headtop-post'>Top Post</h1>
-        {Filtered.map((Data,index) =>{
+        {Filtered && Filtered.map((Data,index) =>{
           if (index < Newcount) 
           {
             if(index === 0)
